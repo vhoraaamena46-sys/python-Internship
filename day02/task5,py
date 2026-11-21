@@ -1,0 +1,5 @@
+height_cm = "175"
+weight_kg = "68.5"
+
+print("Height:", height_cm)
+print("Weight:", weight_kg)

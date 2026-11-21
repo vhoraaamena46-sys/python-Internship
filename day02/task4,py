@@ -1,0 +1,13 @@
+price = 45
+
+# 1. Total cost for 7 notebooks
+total = price * 7
+print("Total cost of 7 notebooks:", total)
+
+# 2. Notebooks with 500 rupees
+notebooks = 500 // price
+print("Notebooks we can buy:", notebooks)
+
+# 3. Remaining money
+remaining = 500 % price
+print("Remaining money:", remaining)

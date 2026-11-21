@@ -1,0 +1,13 @@
+name = "Aamenah Vhora"
+
+# 1. Uppercase
+print(name.upper())
+
+# 2. Lowercase
+print(name.lower())
+
+# 3. Total number of characters
+print(len(name))
+
+# 4. First 3 characters
+print(name[:3])
