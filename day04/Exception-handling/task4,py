@@ -1,0 +1,12 @@
+def read_file_safely(filename):
+   try:
+      file=open(filename,"r")
+      data=file.read()
+      print(data)
+      file.close()
+      
+   except FileNotFoundError:
+      print("File not found")   
+      
+read_file_safely("Day04/exception-handling/task3.1.py")      
+read_file_safely("task3.txt")

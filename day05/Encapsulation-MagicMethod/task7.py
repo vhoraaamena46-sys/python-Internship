@@ -1,0 +1,14 @@
+import time
+class Timer:
+    def __enter__(self):
+        self.start=time.time()
+        
+        return self
+ 
+    def __exit__(self,exec_type,exec_value,traceback):
+        self.end=time.time()
+        print("Time passed:",self.end-self.start," seconds")
+        
+with Timer():
+    for i in range(1000000) :
+        pass       
